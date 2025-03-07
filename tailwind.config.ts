@@ -15,10 +15,10 @@ const config: Config = {
       },
       fontFamily:{
         poppins:['Poppins','sans-serif'],
-        inter: ['Inter', 'sans-serif'],
-        openSans: ['Open Sans', 'sans-serif'],
-        playfair: ['Playfair Display'],
-        roboto:['Roboto', 'serif']
+        // inter: ['Inter', 'sans-serif'],
+        // openSans: ['Open Sans', 'sans-serif'],
+        // playfair: ['Playfair Display'],
+        // roboto:['Roboto', 'serif']
       },
       colors:{
         softBlue: "#5879C4",
