@@ -40,7 +40,11 @@ const LayoutAntd: React.FC<LayoutProps> = ({children}) => {
     const title = snippet.replace(/-/g, " ");
     return (
       <Breadcrumb.Item key={url}>
-        <Link href={url}>{capitalizeChar(title)}</Link>
+        <Link
+          href={url}
+        >
+          {capitalizeChar(title)}
+        </Link>
       </Breadcrumb.Item>
     );
   });

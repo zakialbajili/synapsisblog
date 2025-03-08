@@ -5,7 +5,7 @@ const theme: ThemeConfig = {
   token: {
     fontSize: 16,
     fontFamilyCode: "'Poppins',serif",
-    colorPrimary: '#52c41a',
+    colorPrimary: '#5879C4',
   },
 };
 
