@@ -40,7 +40,7 @@ const ExploreUser = () => {
           <p className="pl-3 text-border/50">Refrensi untuk anda</p>
           {users?.data?.map((user: any) => (
             <Link
-              href={`/users/${slugify(String(user.id), {
+              href={`/user/${slugify(String(user.id), {
                 lower: true,
               })}`}
               key={user.id}
