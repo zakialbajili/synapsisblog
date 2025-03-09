@@ -29,7 +29,7 @@ const Login:React.FC = () => {
         const addLoginInfo = {...collectData,"isLogin":true}
         localStorage.setItem('dataPersonal', JSON.stringify(addLoginInfo))
         message.success("Selamat anda berhasil login");
-        router.push('/')
+        router.push('/home')
       }
     }else{
       message.error("Email tidak terdaftar");

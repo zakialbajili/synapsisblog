@@ -25,10 +25,10 @@ const { Header, Content, Footer, Sider } = Layout;
 // );
 const items = [
   {
-    key: "/",
+    key: "/home",
     icon: <HomeOutlined style={{ color: "white" }} />,
     label: (
-      <Link href={"/"} className="text-base" style={{ color: "white" }}>
+      <Link href={"/home"} className="text-base" style={{ color: "white" }}>
         Home
       </Link>
     ),
